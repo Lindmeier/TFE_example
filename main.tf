@@ -7,5 +7,5 @@ module "test" {
   source  = "app.terraform.io/team-automation/test/tfe"
   version = "1.0.1"
   # insert required variables here
-  count = 2
+  anzahl = 2
 }
