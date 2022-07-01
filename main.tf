@@ -5,7 +5,7 @@ provider "fakewebservices" {
 
 module "test" {
   source  = "app.terraform.io/team-automation/test/tfe"
-  version = "1.0.1"
+  version = "1.0.2"
   # insert required variables here
   anzahl = 2
 }
